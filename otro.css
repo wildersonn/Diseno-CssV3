@@ -1,0 +1,128 @@
+*{
+  padding: 0px;
+  margin:0px;
+}
+body{
+  background: #1d1d1d ;
+  background: url(uno.png);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+background-position: center 0;  
+background-size: 1000px 1500px;
+}
+
+html{
+  background: rgb(44, 44, 44);
+}
+
+html:hover{
+  background: rgb(29, 29, 29);
+  height: 20px;;
+}
+
+header .encabezado .logo:hover{
+  
+  width: 100px;
+  position: relative;
+  left: 110px;
+}
+
+.encabezado{
+  background: #ac253c;
+}
+
+.encabezado:hover{
+  background: #a7243a;
+}
+
+header, main, footer{
+  width: 90%;
+  height: 90%;
+  max-width: 1000px;
+  max-height: 1000px;
+  margin: 5px auto;
+}
+header nav{
+  background: #CD9999;
+  overflow: hidden;
+}
+main .articulouno {
+  width:60%;;
+
+  text-align: justify;
+  float: left;
+  background: #99c1cd;
+}
+main .articulodos {
+  width: 60%;;
+
+  text-align: justify;
+  float: left;
+  background:#99c1cd;
+  margin-top: 20px;
+}
+
+
+.principal p{
+  background:#c07777;
+  text-align: center;
+  font-style:normal;
+  font-size: 20px;
+}
+.principal h2 {
+  background:#c07777;
+  text-align: center;
+  font-style: italic;
+  font-size: 60px;
+
+}
+
+.asides {
+  width:389px;
+  margin-right:20px;
+  color: #000;
+  background: #99afcd;
+  position:relative;
+  float:left;
+  bottom: 1015px;
+  left: 610px;
+}
+
+header nav ul{
+  list-style: none;
+  
+
+}
+
+header nav ul li{
+  float:right;
+
+}
+header nav ul li:hover{
+  background: #cd5555;
+  
+  
+}
+
+header nav ul li a{
+  padding: 15px 25px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+header nav ul li a:hover{
+font-size: 17px;
+  padding: 13.5px 23.5px;
+  display: block;
+  background: #d44d4d;
+}
+
+
+footer{
+  background: #000;
+  color: #fff;
+  clear:both;
+  text-align: center;
+  padding: 15px;
+  
+}
